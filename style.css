@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('background.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#bird{
+    height: 10vh;
+    width: 10vw;
+    position: absolute;
+    top:40vh;
+    /* bottom: 0; */
+    left:10vw;
+    background-image: url('bird2.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: transparent;
+    /* border: 1px solid black; */
+    z-index: 5;
+}
+#score{
+    
+    font-size: 4vmax;
+    text-align: center;
+    position: absolute;
+    height: 12vmax;
+    padding: 2vmax;
+    width: 20vmax;
+    top:70%;
+    left:calc(50% - 10vmax);
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 3vmax;
+    box-shadow: 0 2vmax 5vmax rgba(0,0,0,0.7),0 -2vmax 10vmax rgba(0,0,0,0.7);
+    z-index: 3;
+}
+.attack{
+    position: absolute;
+    width: 10vw;
+    background-image: url('pillar.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
