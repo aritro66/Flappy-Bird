@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             bird.style.left = bird_level_Left_right + 'vw';
         }
         if (bird_level_Up_Down > 5 && e.keyCode == 38) {
-            bird_level_Up_Down -= 10;
+            bird_level_Up_Down -= 6;
             bird.style.top = bird_level_Up_Down + 'vh';
         }
         if (bird_level_Left_right < 90 && e.keyCode == 39) {
